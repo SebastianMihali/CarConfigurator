@@ -18,7 +18,7 @@ To run the project locally, follow these steps:
 3. Install dependencies by running `npm install`.
 4. Start the development server with `npm run dev`.
 5. Open your browser and visit `http://localhost:3000` to view the car configurator.
-
+npm
 
 ## Credits
 
