@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+  width:100%;
+  height: 100%;
+}
+body{
+  background-color: #171717;
+}
+.panel{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.panel-hidden{
+  transform: translateX(280px);
+}
