@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <head>
+      <script defer data-domain="car.abes.dev" src="https://plausible.abes.dev/js/script.js"></script>
+      <title>Car Configurator</title>
+    </head>
+    <body className={inter.className}>{children}</body>
     </html>
   );
 }
